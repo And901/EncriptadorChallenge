@@ -1,0 +1,124 @@
+header{
+font-family: "Josefin Sans", sans-serif; 
+padding: 20px;
+display: flex;
+align-items: center;
+}
+
+header img{
+    max-height: 150px;
+}
+
+#logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo{
+    width: 85%;
+}
+
+#title{
+    text-align: center;
+    color:#f9423a;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+body {
+    background: linear-gradient(#dbe0e8 20%, #ffffff 80%);
+    font-family: "Josefin Sans", sans-serif; 
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+main p {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.textoIngresado{
+    width: 65%;
+    height: 75vh;
+}
+
+.contenedorIngreso{
+    justify-content: center;
+    padding: 20px;
+}
+
+#textoEncriptado{
+    width: 100%;
+    height: 600px;
+    border: none;
+    resize: none;
+    background: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 3em;
+    padding: 10px;
+}
+
+#textoEncriptado:focus{
+    outline: none;
+}
+
+.textoResultado{
+    width: 35%;
+    height: 75vh;
+}
+
+.contenedorSalida{
+    justify-content: center;
+    padding: 20px;
+}
+
+#textoDesencriptado{
+    width: 90%;
+    height: 630px;
+    resize: none;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif; 
+    font-size: 3em;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: #f9423a;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2em;
+}
+
+button:hover{
+    background-color: #ac2d28;
+}
+
+button:active{
+    background-color: #ff5d3b;
+}
+
+#copiado{
+    display:none;
+    text-align: center;
+}
+
+footer{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin:30px;
+}
